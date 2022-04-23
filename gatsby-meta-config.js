@@ -1,9 +1,9 @@
 module.exports = {
-  title: `JOONGAENG.io`,
+  title: `JOONKYUNG.dev`,
   description: `Techlog Blog`,
-  author: `JoonGaeng`,
-  introduction: `개발/일상/생각을 기록하는 블로그`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  author: `Joonkyung`,
+  introduction: `개발/일상/생각을 기록하는 블로그입니다.`,
+  siteUrl: `https://joonkyung.dev`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `choejoonkyung`, // Your GitHub account
@@ -16,7 +16,7 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'choejoonkyung/joongaeng.io-comments', // Your repository for archive comment
+    utterances: 'choejoonkyung/joonkyung.dev-comments', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
