@@ -13,10 +13,19 @@ module.exports = {
     instagram: `varletconst`, // Your Instagram account
   },
   icon: `content/assets/favicon.png`, // Add your favicon
-  keywords: [`blog`],
+  keywords: [
+    `blog`,
+    `javascript`,
+    `typescript`,
+    `web`,
+    `react`,
+    `vue`,
+    `frontend`,
+    `development`,
+  ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'choejoonkyung/joonkyung.dev-comments', // Your repository for archive comment
+    utterances: 'choejoonkyung/joonkyung.dev', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
