@@ -22,6 +22,8 @@ module.exports = {
     `vue`,
     `frontend`,
     `development`,
+    `developer`,
+    `최준경`,
   ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
