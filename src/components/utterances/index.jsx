@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import * as Dom from '../../utils/dom'
 import { THEME } from '../../constants'
@@ -10,6 +10,7 @@ const LIGHT_THEME = 'github-light'
 
 export const Utterances = ({ repo }) => {
   const rootElm = React.createRef()
+  const [isLoaded, setIsloaded] = useState(false)
 
   useEffect(() => {
     const isDarkTheme = Dom.hasClassOfBody(THEME.DARK)
@@ -31,5 +32,22 @@ export const Utterances = ({ repo }) => {
     rootElm.current.appendChild(utterances)
   }, [])
 
-  return <div className="utterances" ref={rootElm} />
+  useEffect(() => {
+    const observer = new ResizeObserver(() => {
+      if (rootElm.current && rootElm.current.offsetHeight > 100) {
+        setIsloaded(true)
+      }
+    })
+    observer.observe(rootElm.current)
+  }, [])
+
+  return (
+    <div className="utterances" ref={rootElm}>
+      {!isLoaded && (
+        <p className="bounce-line" style={{ textAlign: 'center' }}>
+          댓글 불러오는 중...!
+        </p>
+      )}
+    </div>
+  )
 }
