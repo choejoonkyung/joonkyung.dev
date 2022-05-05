@@ -1,8 +1,8 @@
 module.exports = {
   title: `JOONKYUNG.dev`,
-  description: '프론트엔드 개발자 Joonkyung` Blog',
+  description: '개발자 최준경의 블로그',
   author: `Joonkyung`,
-  introduction: `개발/일상/생각을 기록하는 블로그입니다.`,
+  introduction: `최준경, 개발/일상/생각을 기록하는 블로그입니다.`,
   siteUrl: `https://joonkyung.dev`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
