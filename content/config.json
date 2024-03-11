@@ -1,9 +1,9 @@
 {
   "title": "Blog by Joonkyung",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "url": "https://joonkyung.dev",
+  "subtitle": "Frontend developer",
   "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "UA-73379983-2",
+  "googleAnalyticsId": "",
   "disqusShortname": "",
   "postsLimit": 4,
   "pathPrefix": "/",
@@ -20,11 +20,11 @@
   "author": {
     "name": "Joonkyung",
     "photo": "/photo.jpg",
-    "bio": "안녕하세요.",
+    "bio": "Frontend developer",
     "contacts": {
       "rss": "",
       "email": "",
-      "github": "alxshelepenok/gatsby-starter-lumen",
+      "github": "choejoonkyung",
       "facebook": "#",
       "telegram": "#",
       "twitter": "#",

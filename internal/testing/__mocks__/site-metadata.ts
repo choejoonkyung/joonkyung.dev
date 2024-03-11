@@ -6,8 +6,8 @@ export default {
     siteMetadata: {
       url: "https://joonkyung.dev",
       title: "Blog by joonkyung",
-      subtitle: "안녕하세요.",
-      copyright: "All rights reserved. Joonkyung.",
+      subtitle: "Frontend developer",
+      copyright: "All rights reserved.",
       postsPerPage: 4,
       author,
       menu,
