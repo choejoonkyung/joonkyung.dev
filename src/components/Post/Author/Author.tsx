@@ -1,7 +1,6 @@
 import React from "react";
 
 import { useSiteMetadata } from "@/hooks";
-import { getContactHref } from "@/utils";
 
 import * as styles from "./Author.module.scss";
 
