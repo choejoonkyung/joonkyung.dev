@@ -35,16 +35,6 @@ exports[`Post renders correctly 1`] = `
     <div>
       <p>
         Frontend developer(2021 ~ )
-        <a
-          href="https://www.twitter.com/#"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <strong>
-            Joonkyung
-          </strong>
-           on Twitter
-        </a>
       </p>
     </div>
   </div>
