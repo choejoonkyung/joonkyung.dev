@@ -1,5 +1,5 @@
 {
-  "title": "Blog by John Doe",
+  "title": "Blog by Joonkyung",
   "url": "https://lumen.alxshelepenok.com",
   "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
   "copyright": "© All rights reserved.",
@@ -18,9 +18,9 @@
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "Joonkyung",
     "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "bio": "안녕하세요.",
     "contacts": {
       "rss": "",
       "email": "",
